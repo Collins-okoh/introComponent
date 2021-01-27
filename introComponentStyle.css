@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./image/bg-intro-desktop.png);
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.leftwidth {
+    width: 35%;
+    margin-left: 5%;
+    padding-right: 3%;
+}
+
+.rightwidth {
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: -27%;
+}
+
+.big {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.text {
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+}
+
+.topright {
+    background-color: hsl(248, 32%, 49%);
+    color: #ffffff;
+    width: 86%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 1px solid #000000;
+}
+
+input#fname {
+    margin-top: 30px;
+}
+
+.claimBtn {
+    padding: 10px;
+    width: 75%;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid hsl(154, 59%, 51%);
+    background-color: hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.bottomright {
+    font-size: x-small;
+    padding-bottom: 10%;
+    font-weight: bolder;
+}
