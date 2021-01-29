@@ -52,6 +52,10 @@ body {
     font-size: 15px;
 }
 
+span.bold {
+    font-weight: bold;
+}
+
 form {
     background-color: #ffffff;
     border-radius: 10px;
@@ -66,6 +70,7 @@ input {
     border-radius: 4px;
     box-shadow: none;
     border: 1px solid #000000;
+    box-shadow: 0.2px 0.2px #000000;
 }
 
 input#fname {
@@ -87,4 +92,83 @@ input#fname {
     font-size: x-small;
     padding-bottom: 10%;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        background-image: url(./image/bg-intro-mobile.png);
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%) ;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .leftwidth {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rightwidth {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 14%;
+        padding-left: 5%;
+        
+    }
+
+    p.big {
+        font-weight: bolder;
+        font-size: 25px;
+        width: 100%;
+        margin-left: -10%;
+        text-align: center;
+    }
+
+    p.text {
+        font-weight: lighter;
+        font-size: 13px;
+    }
+
+    .topright {
+        box-sizing: border-box;
+        background-color: hsl(248, 32%, 49%);
+        color: #ffffff;
+        width: 90%;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    span.bold {
+        font-weight: lighter;
+    }
+
+    .claimBtn {
+        padding: 10px;
+        width: 79%;
+        border-radius: 4px;
+        color: #ffffff;
+        border: 1px solid hsl(154, 59%, 51%);
+        background-color: hsl(154, 59%, 51%);
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .bottomright {
+        font-size: x-small;
+        margin-bottom: 10%;
+        font-weight: lighter;
+        padding: 15px;
+    }
 }
