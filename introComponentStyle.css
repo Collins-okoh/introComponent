@@ -12,6 +12,10 @@ body {
     margin-top: 10%;
 }
 
+.red {
+    color: #ff0000;
+}
+
 .leftwidth {
     width: 35%;
     margin-left: 5%;
@@ -168,7 +172,6 @@ input#fname {
     .bottomright {
         font-size: x-small;
         margin-bottom: 10%;
-        font-weight: lighter;
         padding: 15px;
     }
 }
